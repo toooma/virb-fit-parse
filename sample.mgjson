@@ -1,0 +1,61 @@
+{
+    "version": "MGJSON2.0.0",
+    "dynamicSamplesPresentB": true,
+    "dynamicDataInfo": {
+        "useTimecodeB": false,
+        "utcInfo": {
+            "precisionLength": 3,
+            "isGMT": true
+        }
+    },
+    "dataOutline": [
+        {
+            "objectType": "dataDynamic",
+            "displayName": "LAT",
+            "sampleSetID": "LAT",
+            "dataType": {
+                "type": "numberString",
+                "numberStringProperties": {
+                    "pattern": {
+                        "digitsInteger": 5,
+                        "digitsDecimal": 1,
+                        "isSigned": true
+                    },
+                    "range": {
+                        "occuring": {
+                            "min": 0,
+                            "max": 0
+                        },
+                        "legal": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    }
+                }
+            },
+            "interpolation": "linear",
+            "hasExpectedFrequecyB": false,
+            "sampleCount": 3,
+            "matchName": "LAT"
+        }
+    ],
+    "dataDynamicSamples": [
+        {
+            "sampleSetID": "LAT",
+            "samples": [
+                {
+                    "time": "2017-06-02T12:40:25.390Z",
+                    "value": "+16009.0"
+                },
+                {
+                    "time": "2017-06-02T12:40:25.437Z",
+                    "value": "+16167.0"
+                },
+                {
+                    "time": "2017-06-02T12:40:25.453Z",
+                    "value": "+16187.0"
+                }
+            ]
+        }
+    ]
+}
